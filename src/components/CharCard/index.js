@@ -12,7 +12,7 @@ export function CharCard({ char: { name, image, status } }) {
         }
       >
         <h2>{nome}</h2>
-        <img src={image} />
+        <img src={image} alt="img card" />
       </div>
     </div>
   );

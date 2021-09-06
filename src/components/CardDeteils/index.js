@@ -31,7 +31,7 @@ export function CardDeteils({
           </li>
         ))}
         <li>
-          <img className="imgCardInfo" src={image} />
+          <img className="imgCardInfo" src={image} alt="img card" />
         </li>
       </ul>
     </>
